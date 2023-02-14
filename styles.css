@@ -1,0 +1,146 @@
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  border-radius: 50%;
+  border: 5px solid #333;
+}
+
+.clock-face {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.marking {
+  position: absolute;
+  background: #333;
+  border-radius: 50%;
+}
+
+.marking-one {
+  top: 15px;
+  left: 95px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-two {
+  top: 25px;
+  left: 130px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-three {
+  top: 95px;
+  left: 155px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-four {
+  top: 160px;
+  left: 130px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-five {
+  top: 170px;
+  left: 95px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-six {
+  top: 170px;
+  left: 30px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-seven {
+  top: 160px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-eight {
+  top: 95px;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-nine {
+  top: 25px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-ten {
+  top: 15px;
+  left: 30px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-eleven {
+  top: 45px;
+  left: 75px;
+  width: 10px;
+  height: 10px;
+}
+
+.marking-twelve {
+  top: 95px;
+  left: 95px;
+  width: 10px;
+  height: 10px;
+}
+
+.hour-hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 50px;
+  background: #333;
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+  border-radius: 6px 6px 0 0;
+}
+
+.minute-hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 70px;
+  background: #333;
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+  border-radius: 4px 4px 0 0;
+}
+
+.second-hand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 80px;
+  background: #f00;
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+  border-radius: 2px 2px 0 0;
+  z-index: 1;
+  box-shadow: 0 0 5px #f00;
+}
