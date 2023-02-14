@@ -7,7 +7,7 @@
   border: 5px solid #333;
 }
 
-.clock-face {
+/* .clock-face {
   position: absolute;
   top: 5px;
   left: 5px;
@@ -105,30 +105,114 @@
   left: 95px;
   width: 10px;
   height: 10px;
+} */
+
+.clock-face {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+    inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face .number {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  transform: translateY(-50%);
+  color: #222;
+}
+
+.clock-face .number.one {
+  top: 20px;
+  left: 95px;
+}
+
+.clock-face .number.two {
+  top: 35px;
+  left: 140px;
+}
+
+.clock-face .number.three {
+  top: 95px;
+  left: 170px;
+}
+
+.clock-face .number.four {
+  top: 155px;
+  left: 140px;
+}
+
+.clock-face .number.five {
+  top: 170px;
+  left: 95px;
+}
+
+.clock-face .number.six {
+  top: 185px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.clock-face .number.seven {
+  top: 170px;
+  left: 5px;
+}
+
+.clock-face .number.eight {
+  top: 155px;
+  left: 5px;
+}
+
+.clock-face .number.nine {
+  top: 95px;
+  left: 5px;
+}
+
+.clock-face .number.ten {
+  top: 35px;
+  left: 5px;
+}
+
+.clock-face .number.eleven {
+  top: 20px;
+  left: 50px;
+}
+
+.clock-face .number.twelve {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .hour-hand {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 6px;
+  width: 8px;
   height: 50px;
-  background: #333;
+  background: #222;
   transform-origin: bottom center;
-  transform: rotate(0deg);
-  border-radius: 6px 6px 0 0;
+  transform: rotate(90deg);
+  border-radius: 4px 4px 0 0;
+  z-index: 2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .minute-hand {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 4px;
+  width: 6px;
   height: 70px;
-  background: #333;
+  background: #222;
   transform-origin: bottom center;
-  transform: rotate(0deg);
-  border-radius: 4px 4px 0 0;
+  transform: rotate(90deg);
+  border-radius: 3px 3px 0 0;
+  z-index: 2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .second-hand {
