@@ -7,12 +7,14 @@ function setDate() {
   secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
   const minutes = now.getMinutes();
-  const minutesDegrees = (minutes / 60) * 360 + (seconds / 60) * 6 + 90;
+  //   const minutesDegrees = (minutes / 60) * 360 + (seconds / 60) * 6 + 90;
+  const minutesDegrees = minutes * 6;
   const minuteHand = document.querySelector(".minute-hand");
   minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
 
   const hours = now.getHours();
-  const hoursDegrees = (hours / 12) * 360 + (minutes / 60) * 30 + 90;
+  //   const hoursDegrees = (hours / 12) * 360 + (minutes / 60) * 30 + 90;
+  const hoursDegrees = hours * 30 + minutes / 2;
   const hourHand = document.querySelector(".hour-hand");
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
 }
