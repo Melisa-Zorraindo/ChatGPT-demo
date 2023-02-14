@@ -7,106 +7,6 @@
   border: 5px solid #333;
 }
 
-/* .clock-face {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border-radius: 50%;
-  background: #fff;
-}
-
-.marking {
-  position: absolute;
-  background: #333;
-  border-radius: 50%;
-}
-
-.marking-one {
-  top: 15px;
-  left: 95px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-two {
-  top: 25px;
-  left: 130px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-three {
-  top: 95px;
-  left: 155px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-four {
-  top: 160px;
-  left: 130px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-five {
-  top: 170px;
-  left: 95px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-six {
-  top: 170px;
-  left: 30px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-seven {
-  top: 160px;
-  left: 5px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-eight {
-  top: 95px;
-  left: -20px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-nine {
-  top: 25px;
-  left: 5px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-ten {
-  top: 15px;
-  left: 30px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-eleven {
-  top: 45px;
-  left: 75px;
-  width: 10px;
-  height: 10px;
-}
-
-.marking-twelve {
-  top: 95px;
-  left: 95px;
-  width: 10px;
-  height: 10px;
-} */
-
 .clock-face {
   position: relative;
   width: 200px;
@@ -121,92 +21,63 @@
   position: absolute;
   font-size: 12px;
   font-weight: bold;
-  /* transform: translate(-50%, -50%); */
   color: #222;
 }
 
 .number.number-one {
-  /* top: 30%; */
   top: 11%;
-  /* left: 50%; */
   left: 70%;
-  /* transform: translate(-50%, -70%); */
 }
 
 .number.number-two {
-  /* top: 45%; */
   top: 27%;
-  /* left: 75%; */
   left: 85%;
-  /* transform: translate(-60%, -50%); */
 }
 
 .number.number-three {
   top: 50%;
-  /* left: 85%; */
   left: 93%;
   transform: translate(-50%, -50%);
 }
 
 .number.number-four {
-  /*  top: 55%;
-  left: 75%;
-  transform: translate(-40%, -50%); */
   bottom: 26%;
   left: 85%;
 }
 
 .number.number-five {
-  /* top: 70%;
-  left: 50%;
-  transform: translate(-50%, -30%); */
   bottom: 12%;
   left: 70%;
 }
 
 .number.number-six {
-  /* top: 85%; */
   bottom: 0%;
   left: 49%;
-  /* transform: translate(-50%, -50%); */
   transform: translate(-50%, -70%);
 }
 
 .number.number-seven {
-  /* top: 70%; */
   bottom: 12%;
-  /* left: 5%; */
   right: 70%;
-  /* transform: translate(50%, -30%); */
 }
 
 .number.number-eight {
-  /*  top: 55%;
-  left: 5%;
-  transform: translate(40%, -50%); */
   bottom: 27%;
   right: 84%;
 }
 
 .number.number-nine {
   top: 50%;
-  /* left: 15%; */
   left: 5%;
   transform: translate(50%, -50%);
 }
 
 .number.number-ten {
-  /*   top: 45%;
-  left: 25%;
-  transform: translate(60%, -50%); */
   top: 27%;
   right: 83%;
 }
 
 .number.number-eleven {
-  /*  top: 30%;
-  left: 25%;
-  transform: translate(50%, -70%); */
   top: 11%;
   right: 69%;
 }
@@ -216,48 +87,6 @@
   left: 49%;
   transform: translate(-50%, -70%);
 }
-
-/* .hour-hand {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 8px;
-  height: 50px;
-  background: #222;
-  transform-origin: bottom center;
-  transform: rotate(90deg);
-  border-radius: 4px 4px 0 0;
-  z-index: 2;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-.minute-hand {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 6px;
-  height: 70px;
-  background: #222;
-  transform-origin: bottom center;
-  transform: rotate(90deg);
-  border-radius: 3px 3px 0 0;
-  z-index: 2;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-.second-hand {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 2px;
-  height: 80px;
-  background: #f00;
-  transform-origin: bottom center;
-  transform: rotate(0deg);
-  border-radius: 2px 2px 0 0;
-  z-index: 1;
-  box-shadow: 0 0 5px #f00;
-} */
 
 .hour-hand {
   position: absolute;
