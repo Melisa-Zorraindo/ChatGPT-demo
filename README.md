@@ -25,3 +25,10 @@ Next, I requested the bot to fix the position of the numbers, but it provided an
 Similarly, I requested the bot to fix the position of the hands, but the code provided in [images/code-snippets/9.PNG](images/code-snippets/9.PNG) did not solve the issue, as shown in [images/results/7-failed-at-fixing-hands-position.PNG](images/results/7-failed-at-fixing-hands-position.PNG). Therefore, the bug had to be fixed manually, which is demonstrated in [images/results/8-human-fixed-hands-position.PNG](images/results/8-human-fixed-hands-position.PNG).
 
 Finally, I requested the bot to fix the time, as there was a discrepancy of 3 hours and 25 minutes with my actual time. The bot provided an explanation for the issue (see [images/code-snippets/10.PNG](images/code-snippets/10.PNG)) and generated a new code snippet for the JavaScript file, as presented in [images/code-snippets/11.PNG](images/code-snippets/11.PNG). However, the code did not solve the issue, and I requested a bug fix. The bot provided a different explanation for the issue as shown in [images/code-snippets/12.PNG](images/code-snippets/12.PNG) and generated another code snippet, which is illustrated in [images/code-snippets/13.PNG](images/code-snippets/13.PNG). Nonetheless, the code still did not solve the bug, and I had to fix it manually, as shown in [images/results/9-human-fixed-javascript-function.PNG](images/results/9-human-fixed-javascript-function.PNG).
+
+## Final product
+
+To see the outcome of this project:
+
+- Run `npm install` to install `live-server`
+- Run `npm start` to start live server
