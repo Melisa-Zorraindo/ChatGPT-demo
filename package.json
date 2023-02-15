@@ -4,7 +4,7 @@
   "description": "This repository is a case study exploring the potential of the ChatGPT chatbot in web development and aims to showcase its strengths and weaknesses, as well as the challenges encountered during the design and implementation of a specific task.",
   "main": "index.js",
   "scripts": {
-    "watch": "live-server"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
