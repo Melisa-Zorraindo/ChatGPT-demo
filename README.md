@@ -30,5 +30,6 @@ Finally, I requested the bot to fix the time, as there was a discrepancy of 3 ho
 
 To see the outcome of this project:
 
+- Clone the repository
 - Run `npm install` to install `live-server`
 - Run `npm start` to start live server
