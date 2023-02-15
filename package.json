@@ -1,0 +1,28 @@
+{
+  "name": "chatgpt-demo",
+  "version": "1.0.0",
+  "description": "This repository is a case study exploring the potential of the ChatGPT chatbot in web development and aims to showcase its strengths and weaknesses, as well as the challenges encountered during the design and implementation of a specific task.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melisa-Zorraindo/ChatGPT-demo.git"
+  },
+  "keywords": [
+    "chatbot",
+    "web-development",
+    "artificial-intelligence",
+    "machine-learning"
+  ],
+  "author": "Melisa Zorraindo melisa.zorraindo@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melisa-Zorraindo/ChatGPT-demo/issues"
+  },
+  "homepage": "https://github.com/Melisa-Zorraindo/ChatGPT-demo#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
