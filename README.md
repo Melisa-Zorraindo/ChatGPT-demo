@@ -2,6 +2,8 @@
 
 Welcome to the ChatGPT case study repository, where I explore the exciting potential of this chatbot in web development. Through this case study, I aim to demonstrate its strengths and weaknesses as well as the challenges it faced in designing and implementing the task.
 
+This repository is part of a [report that I created for a case study at Noroff school of Media and Technology.](https://github.com/Melisa-Zorraindo/development-platforms/blob/chatGPT-case-study/chatGPT-case-study.md)
+
 ## Choosing a task
 
 One of the initial challenges I faced was finding an attainable task for the bot. As my original goal was for ChatGPT to code an entire website, I had to consider its limitations, such as its inability to generate drawings or pictures. Additionally, it appeared to struggle with understanding the complexity of some popular games.
